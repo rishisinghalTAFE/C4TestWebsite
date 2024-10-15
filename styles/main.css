@@ -9,3 +9,10 @@ img {
 .logo {
     max-width: 60px;
 }
+.main-header {
+    display: flex;
+    /*flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
